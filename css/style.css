@@ -223,12 +223,15 @@ body {
   background-image: url(../imagenes/fondoindex.png); }
   .fondoMain .serviciosMain {
     display: flex;
-    width: 100%; }
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 5px; }
   .fondoMain .card {
     margin: 1rem;
     margin-top: 1rem;
     margin-right: 2rem;
-    display: flex; }
+    display: flex;
+    justify-content: center; }
 
 .btn {
   display: flex;

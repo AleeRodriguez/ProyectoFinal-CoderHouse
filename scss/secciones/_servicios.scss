@@ -4,6 +4,8 @@
     .serviciosMain {
         display: flex;
         width: 100%;
+        justify-content: center;
+        padding-bottom: 5px;
     }
 
     .card {
@@ -11,6 +13,7 @@
         margin-top: 1rem;
         margin-right: 2rem;
         display: flex;
+        justify-content: center;
     }
 }
 
