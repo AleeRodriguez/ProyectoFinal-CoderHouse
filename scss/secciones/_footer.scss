@@ -1,0 +1,14 @@
+.footer {
+    align-items: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, rgba(0,212,255,1) 35%, rgba(9,17,121,1) 100%);
+    font-size: larger;
+    font-style: normal;
+    height: 100px;
+    width: 100%;
+    padding-bottom: 13px;
+}

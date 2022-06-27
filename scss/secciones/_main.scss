@@ -1,0 +1,28 @@
+.mainIndex {
+    background-image: url(../imagenes/fondoindex.png);
+    height: 90%;
+    content: normal;
+    background-repeat:no-repeat;
+    background-color: gray;
+    .parrafoIndex {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      padding-right: 600px;
+      padding-bottom: 150px;
+      font-family: Arial;
+      font-size: large;
+      font-weight: bold; }}
+
+  @media (max-width: 576px) {
+    .mainIndex .parrafoIndex {
+      display: flex;
+      padding-right: 0px;
+      padding-bottom: 2px; }
+    .mainIndex .br {
+      display: none; } }
+  
+  body {
+    background-image: url(../imagenes/fondoindex.png);
+    background-repeat: no-repeat; }
+  
