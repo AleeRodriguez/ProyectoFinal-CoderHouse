@@ -255,6 +255,19 @@ body {
     margin: 0 auto;
     align-items: center; } }
 
+.carousel-control-next, .carousel-control-prev {
+  padding-top: 300px; }
+
+.matriz {
+  display: inline;
+  color: black;
+  font-weight: bold;
+  background-color: gray; }
+
+.parrafomatriz {
+  color: black;
+  font-weight: bold; }
+
 .header {
   width: 100vw; }
 
