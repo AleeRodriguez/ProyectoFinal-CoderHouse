@@ -259,14 +259,20 @@ body {
   padding-top: 300px; }
 
 .matriz {
-  display: inline;
+  display: inline-block;
   color: black;
   font-weight: bold;
-  background-color: gray; }
+  border-radius: 30px;
+  background: linear-gradient(180deg, gray 35%, white 100%); }
 
 .parrafomatriz {
   color: black;
-  font-weight: bold; }
+  font-weight: bold;
+  border-radius: 30px; }
+
+.parrafomatriceria {
+  background: linear-gradient(180deg, gray 35%, white 100%);
+  border-radius: 30px; }
 
 .header {
   width: 100vw; }
