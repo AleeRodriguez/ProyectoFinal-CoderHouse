@@ -154,6 +154,7 @@ span {
   background-image: url(../imagenes/fondoindex.png);
   height: 90%;
   content: normal;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: gray; }
   .mainIndex .parrafoIndex {
@@ -176,7 +177,8 @@ span {
 
 body {
   background-image: url(../imagenes/fondoindex.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .carousel .slide {
   width: 50%; }

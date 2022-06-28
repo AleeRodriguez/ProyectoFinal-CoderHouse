@@ -2,6 +2,7 @@
     background-image: url(../imagenes/fondoindex.png);
     height: 90%;
     content: normal;
+    background-size: cover;
     background-repeat:no-repeat;
     background-color: gray;
     .parrafoIndex {
@@ -24,5 +25,7 @@
   
   body {
     background-image: url(../imagenes/fondoindex.png);
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
   
