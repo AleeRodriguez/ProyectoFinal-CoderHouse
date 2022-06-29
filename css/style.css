@@ -93,7 +93,6 @@ body {
   background: linear-gradient(180deg, #091179 25%, #00d4ff 75%);
   padding-left: 20px; }
   .contact_form input {
-    background-color: #fbfbfb;
     width: 408px;
     height: 40px;
     border-radius: 4px;
@@ -103,7 +102,9 @@ body {
     margin-top: 10px;
     padding-left: 10px;
     margin-bottom: 10px;
-    font-weight: bold; }
+    font-weight: bold;
+    background-color: white;
+    color: black; }
   .contact_form textarea {
     background-color: #fbfbfb;
     width: 405px;

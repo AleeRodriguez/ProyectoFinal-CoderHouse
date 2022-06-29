@@ -14,7 +14,6 @@ body {
     background: linear-gradient(180deg, rgba(9,17,121,1) 25%, rgba(0,212,255,1) 75%,);
     padding-left: 20px;
     input {
-        background-color: #fbfbfb;
         width: 408px;
         height: 40px;
         border-radius: 4px;
@@ -25,6 +24,7 @@ body {
         padding-left: 10px;
         margin-bottom: 10px;
         font-weight: bold;
+        @include basico (white, black)
     }
     textarea {
         background-color: #fbfbfb;
