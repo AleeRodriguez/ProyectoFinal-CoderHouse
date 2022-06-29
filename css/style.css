@@ -1,31 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Luckiest+Guy&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 * {
   margin: 0;
   padding: 0; }
 
-.mainIndex {
-  background-image: url(../imagenes/fondoindex.png);
-  height: 100vw;
-  width: 100vw; }
-  .mainIndex .parrafoIndex {
-    display: inline-block;
-    inline-size: auto;
-    align-items: center;
-    padding: 150px;
-    padding-right: 450px;
-    padding-bottom: 245px;
-    font-family: Arial;
-    font-size: large;
-    font-weight: bold;
-    background-color: gray; }
+.colornav {
+  background: linear-gradient(180deg, #091179 15%, #00d4ff 100%) !important; }
 
-@media (max-width: 576px) {
-  .mainIndex .parrafoIndex {
-    display: flex;
-    padding-right: 0px;
-    padding-bottom: 2px; }
-  .mainIndex .br {
-    display: none; } }
+.nav-item {
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 3px;
+  color: white;
+  font-style: "Acme", sans-serif;
+  font-weight: bold;
+  width: 80%; }
 
 .footer {
   align-items: center;
@@ -43,19 +33,43 @@
 
 .mainIndex {
   background-image: url(../imagenes/fondoindex.png);
-  height: 100vw;
+  content: normal;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: gray;
+  padding-bottom: -150px;
+  height: 31.2vw;
   width: 100vw; }
+
+.parrafoIndex {
+  display: inline-block;
+  align-items: center;
+  padding: 0px auto;
+  padding-bottom: 0px;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Fredoka One", cursive;
+  background-color: rgba(128, 128, 128, 0.5); }
+
+.fondoMain .card {
+  margin: 1rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  justify-content: center; }
+
+.fondoMain .serviciosMain {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 5px; }
+
+@media (max-width: 576px) {
   .mainIndex .parrafoIndex {
-    display: inline-block;
-    inline-size: auto;
-    align-items: center;
-    padding: 150px;
-    padding-right: 450px;
-    padding-bottom: 245px;
-    font-family: Arial;
-    font-size: large;
-    font-weight: bold;
-    background-color: gray; }
+    display: flex;
+    padding-right: 0px;
+    padding-bottom: 2px; }
+  .mainIndex .br {
+    display: none; } }
 
 @media (max-width: 576px) {
   .mainIndex .parrafoIndex {
@@ -150,22 +164,11 @@ span {
   outline: 0;
   border: 1px solid #97d848; }
 
-.mainIndex {
-  background-image: url(../imagenes/fondoindex.png);
-  height: 90%;
-  content: normal;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: gray; }
-  .mainIndex .parrafoIndex {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    padding-right: 600px;
-    padding-bottom: 150px;
-    font-family: Arial;
-    font-size: large;
-    font-weight: bold; }
+p2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  align-items: center; }
 
 @media (max-width: 576px) {
   .mainIndex .parrafoIndex {
@@ -223,17 +226,6 @@ body {
 
 .fondoMain {
   background-image: url(../imagenes/fondoindex.png); }
-  .fondoMain .serviciosMain {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-bottom: 5px; }
-  .fondoMain .card {
-    margin: 1rem;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    display: flex;
-    justify-content: center; }
 
 .btn {
   display: flex;
@@ -245,8 +237,10 @@ body {
   align-items: center; }
   .card a.btn {
     background-color: lightblue;
-    color: black;
-    font-weight: bold; }
+    color: black; }
+    .card a.btn:hover {
+      background-color: #3333ff;
+      font-weight: bold; }
 
 @media (max-width: 576px) {
   .serviciosMain {
@@ -275,19 +269,8 @@ body {
   border-radius: 30px; }
 
 .header {
-  width: 100vw; }
-
-.colornav {
-  background: linear-gradient(180deg, #091179 15%, #00d4ff 100%) !important; }
-
-.nav-item {
-  border: 2px solid;
-  border-radius: 5px;
-  margin: 3px;
-  color: white;
-  font-family: Arial;
-  font-weight: bold;
-  width: 80%; }
+  width: 100vw;
+  justify-content: center; }
 
 .nav:active {
   font-weight: bold;

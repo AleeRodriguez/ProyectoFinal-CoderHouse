@@ -1,17 +1,12 @@
 .header{
     width: 100vw;
+    justify-content: center
 }
 .colornav{
-    background: linear-gradient(180deg, rgba(9,17,121,1) 15%, rgba(0,212,255,1) 100%) !important;
+    @extend %colorNav;
 }
 .nav-item{
-    border: 2px solid;
-    border-radius: 5px;
-    margin: 3px;
-    color: white;
-    font-family: Arial;
-    font-weight: bold;
-    width: 80%;
+   @extend %navegacion;
 }
 .nav:active{
     font-weight: bold;

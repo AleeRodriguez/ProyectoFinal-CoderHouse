@@ -1,20 +1,4 @@
-.mainIndex {
-    background-image: url(../imagenes/fondoindex.png);
-    height: 100vw;
-    width: 100vw;
-    .parrafoIndex{
-        display: inline-block;
-        inline-size: auto;
-        align-items: center;
-        padding: 150px;
-        padding-right: 450px;
-        padding-bottom: 245px;
-        font-family: Arial;
-        font-size: large;
-        font-weight: bold;
-        background-color: gray;
-    }
-}
+
 @media(max-width: 576px){
     .mainIndex{
         .parrafoIndex{

@@ -1,0 +1,66 @@
+%colorNav {
+    background: linear-gradient(180deg, rgba(9, 17, 121, 1) 15%, rgba(0, 212, 255, 1) 100%) !important;
+}
+
+%navegacion {
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 3px;
+    color: white;
+    font-style: $acme;
+    font-weight: bold;
+    width: 80%;
+}
+
+%footer {
+    align-items: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, rgba(0, 212, 255, 1) 35%, rgba(9, 17, 121, 1) 100%);
+    font-size: larger;
+    font-style: normal;
+    height: 100px;
+    width: 100%;
+    padding-bottom: 13px;
+}
+
+%inicio {
+    background-image: url(../imagenes/fondoindex.png);
+    content: normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    padding-bottom: -150px;
+    height: 31.2vw;
+    width: 100vw;
+
+}
+
+%inicioParrafo {
+    display: inline-block;
+    align-items: center;
+    padding: 0px auto;
+    padding-bottom: 0px;
+    font-size: large;
+    font-weight: bold;
+    font-family: $fredoka;
+    background-color: rgba($color: gray, $alpha: 0.5);
+
+}
+
+%tarjeta {
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    justify-content: center;
+}
+
+%servicios {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 5px;
+}
