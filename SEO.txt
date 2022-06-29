@@ -1,0 +1,13 @@
+Presento mi proyecto.
+Lo principal, es un index el cual esta linkeado a sus secciones que se encuentran en la carpeta llamada "page"
+En su momento tenia todas las secciones como el index, y las puse en una carpeta. 
+Agregando SASS me encontre con que es mucho mas util un EXTEND que un MIXIN. (Quiza no me siento comodo)
+Para lo que es SEO agregue la meta descriptiva en cada seccion como tambien la meta de keywords. 
+Use palabras claves como Ingenieria, Diseño, Desarrollo, Matriceria, todas relacionadas a la pagina en cuestion. 
+A todo esto, levante un sitemap, el cual da como prioridad al index en 1.00 y el resto en 0.80
+Ademas modifique la etiqueta Title, ya que la misma contenia el nombre de la web, y lo cambie en cada seccion/nombre web.
+
+A grandes rasgos le falta demasiado. Pero sabiendo que arrancare js en unas semanas, mi objetivo principal es seguir mejorando la
+pagina con los conocimientos que vaya adquiriendo.
+
+Saludos
