@@ -26,6 +26,7 @@ body {
         font-weight: bold;
         @include basico (white, black)
     }
+
     textarea {
         background-color: #fbfbfb;
         width: 405px;
