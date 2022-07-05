@@ -211,6 +211,14 @@ body {
 .carousel-control-prev {
   padding-top: 150px; }
 
+.menusistema {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center; }
+  .menusistema .sistemafotos {
+    display: none; }
+
 @media (max-width: 576px) {
   .Neumatica {
     display: none; }
@@ -223,7 +231,15 @@ body {
   .carousel-control-next {
     display: none; }
   .carousel-indicators {
-    display: none; } }
+    display: none; }
+  .menusistema {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column; }
+    .menusistema .sistemafotos {
+      font-weight: bold;
+      background-color: rgba(128, 128, 128, 0.5);
+      display: inline; } }
 
 .fondoMain {
   background-image: url(../imagenes/fondoindex.png); }
