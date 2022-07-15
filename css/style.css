@@ -67,7 +67,7 @@
   .mainIndex .parrafoIndex {
     display: flex;
     padding-right: 0px;
-    padding-bottom: 2px; }
+    padding-bottom: 6px; }
   .mainIndex .br {
     display: none; } }
 
@@ -75,7 +75,7 @@
   .mainIndex .parrafoIndex {
     display: flex;
     padding-right: 0px;
-    padding-bottom: 2px; }
+    padding-bottom: 6px; }
   .mainIndex .br {
     display: none; } }
 
@@ -177,7 +177,9 @@ p2 {
     padding-right: 0px;
     padding-bottom: 2px; }
   .mainIndex .br {
-    display: none; } }
+    display: none; }
+  .footer {
+    margin-top: 137px; } }
 
 body {
   background-image: url(../imagenes/fondoindex.png);
